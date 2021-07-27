@@ -78,10 +78,11 @@ function App() {
               Il a l'habitude de partir côté jardin pour 1 ou 2 nuits, mais rarement plus.<br />
               Cette fois-ci, il s'est sauvé côté rue, le matin, ce qui nous inquiète énormément.<br />
               <br />
-              Il doit sûrement se trouver dans les rues de Valenciennes.<br />
+              <b>Il doit sûrement se trouver dans les rues de Valenciennes. Nous habitons rue des déportés du train de loos et 
+              avons habité rue Cahaut et rue Saudeur, il pourrait se trouver dans les environs.</b><br />
               <br />
-              Raoul possède un signe distinctif, son oreille droite est coupée en forme de triangle,
-              comme on peut le voir sur certaines photo. Cependant, il ne porte pas de colier.<br />
+              Raoul possède un signe distinctif, <b>son oreille droite est coupée en forme de triangle</b>,
+              comme on peut le voir sur certaines photos. Cependant, il ne porte pas de collier.<br />
               <br />
               Tout renseignement nous aiderait à le retrouver. Merci de votre bienveillance. Il nous manque
               déjà beaucoup...
