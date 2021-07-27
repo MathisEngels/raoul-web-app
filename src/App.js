@@ -23,7 +23,7 @@ function App() {
       setError(false);
       const toastId = toast.loading("Envoi...");
       const ip = await publicIp.v4();
-      axios.post("http://mathisengels.fr/api/message", { email, message, ip })
+      axios.post("https://mathisengels.fr/api/message", { email, message, ip })
         .then(function (response) {
           if (response.status === 200) {
             toast.success("Message envoyé !", {
