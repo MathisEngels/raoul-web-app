@@ -100,7 +100,6 @@ function App() {
             name="email"
             autoComplete="email"
             onChange={(e) => handleValueChange(e, "email")}
-            autoFocus
           />
           <TextField
             id="message"
