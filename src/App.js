@@ -23,7 +23,7 @@ function App() {
       setError(false);
       const toastId = toast.loading("Envoi...");
       const ip = await publicIp.v4();
-      axios.post("http://localhost:3000/message", { email, message, ip })
+      axios.post("http://127.0.0.1:3000/message", { email, message, ip })
         .then(function (response) {
           if (response.status === 200) {
             toast.success("Message envoyé !", {
@@ -31,7 +31,6 @@ function App() {
             });
           }
         }).catch(function (error) {
-          console.log(error);
           if (error.response.status === 400) {
             toast.error("Erreur.", {
               id: toastId,
