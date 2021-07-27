@@ -3,7 +3,6 @@ import { Grid, Container, Typography, Button } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Slider from 'react-slick';
 import toast, { Toaster } from 'react-hot-toast';
-import publicIp from 'public-ip';
 
 import './App.css';
 import axios from 'axios';
@@ -22,8 +21,7 @@ function App() {
     if (message && message !== "") {
       setError(false);
       const toastId = toast.loading("Envoi...");
-      const ip = await publicIp.v4();
-      axios.post("https://mathisengels.fr/api/message", { email, message, ip })
+      axios.post("https://mathisengels.fr/api/message", { email, message })
         .then(function (response) {
           if (response.status === 200) {
             toast.success("Message envoyé !", {
